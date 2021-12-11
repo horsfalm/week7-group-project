@@ -24,21 +24,43 @@
 
         <section>
             <div class="options" id="user-input">
-                <div><h2>Tell Us Your Preferences</h2></div>
-            </div>
+                <div id="preferences"><h2>What Are Your Preferences?</h2></div>
+                    <form id="user-choices">
+                        <div class="form-group">
+                            <textarea id="city" type="text" placeholder="Please enter city"></textarea>
+                            <label for="address"></label>
+                        </div> 
+                        <div class="form-group">
+                            <select name="dining-type" class="select-dropdown">
+                            <option value="" disabled selected>Dining Style</option>
+                            <option value="Italian" class="drop-value">Italian</option>
+                            <option value="Chinese" class="drop-value">Chinese</option>
+                            <option value="Vegan" class="drop-value">Vegan</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select name="film-type" class="select-dropdown">
+                            <option value="" disabled selected>Film Genre</option>
+                            <option value="Drama" class="drop-value">Drama</option>
+                            <option value="Comedy" class="drop-value">Comedy</option>
+                            <option value="Action" class="drop-value">Action</option>
+                            </select>
+                        </div> 
+                    </form>
+                </div>
         </section>
         
         <section id="activities">
             <div class="options" id="dining">
-                <div><h3>Dining Options We Think You Would Like</h3></div>
+                <div><h3>Dining Options We Think You Would Like:</h3></div>
             </div>
 
             <div class="options" id="films">
-                <div><h3>Film Options We Think You Would Like</h3></div>
+                <div><h3>Film Options We Think You Would Like:</h3></div>
             </div>
 
             <div class="options" id="what-is-on">
-                <div><h3>Local Activities We Think You Would Like</h3></div>
+                <div><h3>Local Activities We Think You Would Like:</h3></div>
             </div>
         </section>
 

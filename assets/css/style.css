@@ -6,17 +6,38 @@
     color: cornsilk;
 }
 
+::-webkit-input-placeholder {
+    text-align: center;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+    text-align: center;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+    text-align: center;
+}
+:-ms-input-placeholder {
+    text-align: center;
+}
+
 header {
     background-color: firebrick;
     padding: 20px 20px;
+    top: 0;
     position: sticky;
+    position: -webkit-sticky;
+}
+
+h3 {
+    text-align: center;
 }
 
 .hero {
     background-image: url("../images/hero-image.jpg");
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-position: 80%;
     display: flex;
     justify-content: right;
@@ -38,6 +59,45 @@ header {
     background-color:teal;
     height: 150px;
     padding: 10px;
+}
+
+#preferences h2 {
+    text-align: center;
+}
+
+#user-choices {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form-group {
+    border-radius: 5%;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+#city {
+    resize: none;
+    line-height: 40px;
+    height: 40px;
+    border-radius: 5%;
+    margin: 5px;
+    overflow: hidden;
+    width: 200px;
+}
+
+.select-dropdown {
+    width: 200px;
+    color: black;
+    background-color: white;
+    text-align: center;
+    height: 40px;
+    margin: 5px;
+}
+
+.drop-value {
+    color: black;
 }
 
 #activities {
