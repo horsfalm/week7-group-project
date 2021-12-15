@@ -108,8 +108,8 @@ h3 {
 .options {
     width: 33.3%;
     background-color: slategrey;
-    height: 150px;
-    padding: 10px;
+    min-height: 150px;
+    padding: 5px;
 }
 
 #dining {
@@ -117,7 +117,7 @@ h3 {
 }
 
 #film {
-
+    
 }
 
 #what-is-on {
@@ -127,4 +127,13 @@ h3 {
 footer {
     background-color: firebrick;
     padding: 10px;
+}
+
+#poster-container {
+    padding: 10px 5px 5px 0;
+}
+
+#poster-container img {
+    width: 33.3%;
+    height: auto;
 }

@@ -23,8 +23,8 @@ function getMovies(input) {
         //}
 
         let poster = res.Search[0].Poster; // can change search[0] to search[Math.rand(Search.length)] later
-        var inner = "<div>" + "<img src=\"" + poster + "\">" + "</div>"; //"\" width=\"500\" height=\"200\">" + "</div>"; <- attempted to set a size for poster, but it loses resolution.
-        document.getElementById('films').innerHTML = inner; 
+        var inner = "<img src=\"" + poster + "\">"; //"\" width=\"500\" height=\"200\">" + "</div>"; <- attempted to set a size for poster, but it loses resolution.
+        document.getElementById('poster-container').innerHTML = inner; 
 
     })
     .catch(err => {
