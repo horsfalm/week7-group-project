@@ -1,0 +1,100 @@
+1.          Us (2019)	553
+2.	  98%	Get Out (2017)	397
+3.	  99%	The Cabinet of Dr. Caligari (Das Cabinet des Dr. Caligari) (1920)	68
+4.	  96%	A Quiet Place (2018)	387
+5.	  92%	The Invisible Man (2020)	412
+6.	  97%	Nosferatu, a Symphony of Horror (Nosferatu, eine Symphonie des Grauens) (Nosferatu the Vampire) (1922)	68
+7.	  98%	King Kong (1933)	66
+8.	  96%	Psycho (1960)	105
+9.	  98%	The Bride of Frankenstein (1935)	47
+10.	  98%	The Babadook (2014)	242
+11.	  100%	Frankenstein (1931)	52
+12.	  90%	The Lighthouse (2019)	382
+13.	  96%	It Follows (2015)	267
+14.	  89%	Hereditary (2018)	382
+15.	  98%	Let the Right One In (2008)	192
+16.	  95%	Freaks (1932)	55
+17.	  96%	Halloween (1978)	78
+18.	  97%	Aliens (1986)	78
+19.	  96%	Night of the Living Dead (1968)	75
+20.	  96%	The Silence of the Lambs (1991)	104
+21.	  96%	Rosemary's Baby (1968)	74
+22.	  98%	Eyes Without a Face (1962)	55
+23.	  95%	Pan's Labyrinth (2006)	239
+24.	  100%	Host (2020)	93
+25.	  95%	Repulsion (1965)	65
+26.	  94%	Possessor: Uncut (2020)	219
+27.	  92%	The Cabin in the Woods (2012)	289
+28.	  90%	The Witch (2016)	331
+29.	  94%	The Invisible Man (1933)	51
+30.	  95%	Don't Look Now (1973)	76
+31.	  86%	It (2017)	386
+32.	  92%	Relic (2020)	232
+33.	  98%	The Friends of Eddie Coyle (1973)	40
+34.	  94%	Young Frankenstein (1974)	69
+35.	  95%	The Birds (1963)	57
+36.	  88%	Ready or Not (2019)	312
+37.	  98%	The Vanishing (Spoorloos) (1988)	49
+38.	  92%	Drag Me to Hell (2009)	269
+39.	  96%	A Girl Walks Home Alone at Night (2014)	135
+40.	  93%	Godzilla (Gojira) (1954)	74
+41.	  95%	The Fly (1958)	41
+42.	  95%	House of Wax (1953)	43
+43.	  94%	Dracula (1931)	48
+44.	  83%	Midsommar (2019)	398
+45.	  93%	Carrie (1976)	67
+46.	  95%	Nosferatu: Phantom der Nacht (Nosferatu the Vampyre) (1979)	60
+47.	  95%	The Evil Dead (1981)	63
+48.	  95%	Evil Dead 2: Dead by Dawn (1987)	61
+49.	  96%	La Llorona (2020)	95
+50.	  94%	The Innocents (1961)	54
+51.	  98%	The Loved Ones (2012)	57
+52.	  93%	The Fly (1986)	69
+53.	  97%	Spontaneous (2020)	64
+54.	  93%	Dead of Night (1945)	43
+55.	  95%	A Nightmare on Elm Street (1984)	55
+56.	  93%	Them! (1954)	57
+57.	  95%	The Love Witch (2016)	113
+58.	  97%	Harpoon (2019)	61
+59.	  94%	Room 237 (2013)	133
+60.	  98%	Werckmeister Harmonies (2001)	41
+61.	  93%	Suspiria (1977)	59
+62.	  94%	Re-Animator (1985)	62
+63.	  92%	Shaun of the Dead (2004)	215
+64.	  94%	Train to Busan (Busanhaeng) (2016)	120
+65.	  92%	Invasion of the Body Snatchers (1978)	61
+66.	  93%	The Host (2007)	155
+67.	  94%	Dawn of the Dead (1979)	48
+68.	  87%	It Comes At Night (2017)	256
+69.	  89%	Zombieland (2009)	259
+70.	  91%	In Fabric (2019)	160
+71.	  88%	Don't Breathe (2016)	241
+72.	  95%	The Mortuary Collection (2019)	66
+73.	  90%	Phantom of the Opera (1925)	51
+74.	  92%	The Endless (2018)	131
+75.	  92%	What Ever Happened to Baby Jane? (1962)	50
+76.	  93%	CAM (2018)	102
+77.	  90%	The Wolf Man (1941)	41
+78.	  86%	The Thing from Another World (1951)	66
+79.	  95%	We Are Still Here (2015)	44
+80.	  88%	Upgrade (2018)	193
+81.	  90%	Eraserhead (1977)	62
+82.	  89%	The Texas Chainsaw Massacre (1974)	63
+83.	  79%	Halloween (2018)	385
+84.	  93%	The Witches (1990)	43
+85.	  90%	Horror of Dracula (1958)	41
+86.	  93%	Arachnophobia (1990)	43
+87.	  88%	The Mummy (1932)	43
+88.	  90%	Dr. Jekyll and Mr. Hyde (1931)	41
+89.	  87%	Frankenweenie (2012)	222
+90.	  88%	Let Me In (2010)	237
+91.	  91%	The Dark and the Wicked (2020)	107
+92.	  90%	Frenzy (1972)	42
+93.	  90%	Misery (1990)	71
+94.	  91%	Kaidan (Kwaidan) (Ghost Stories) (1964)	44
+95.	  88%	Island of Lost Souls (1933)	40
+96.	  86%	Color Out of Space (2020)	208
+97.	  86%	The Conjuring (2013)	223
+98.	  91%	Bone Tomahawk (2015)	98
+99.	  91%	Cronos (1994)	54
+100.	  90%	Little Shop of Horrors (1986)	50

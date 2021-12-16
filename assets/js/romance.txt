@@ -1,0 +1,100 @@
+1.	  99%	It Happened One Night (1934)	98
+2.	  99%	Casablanca (1942)	124
+3.	  100%	The Philadelphia Story (1940)	102
+4.	  97%	A Night at the Opera (1935)	70
+5.	  92%	The Shape of Water (2017)	459
+6.	  100%	Singin' in the Rain (1952)	67
+7.	  98%	The Big Sick (2017)	304
+8.	  96%	An American in Paris (1951)	94
+9.	  99%	On the Waterfront (1954)	105
+10.	  98%	The Best Years of Our Lives (1946)	91
+11.	  100%	The Adventures of Robin Hood (1938)	48
+12.	  94%	Call Me by Your Name (2018)	363
+13.	  100%	Top Hat (1935)	42
+14.	  99%	Marty (1955)	70
+15.	  100%	The Lady Eve (1941)	48
+16.	  94%	Vertigo (1958)	84
+17.	  94%	Carol (2015)	314
+18.	  97%	The Red Shoes (1948)	61
+19.	  98%	Before Midnight (2013)	206
+20.	  95%	The Artist (2011)	321
+21.	  99%	The Umbrellas of Cherbourg (Les Parapluies de Cherbourg) (1964)	67
+22.	  96%	City Lights (1931)	55
+23.	  94%	Her (2013)	283
+24.	  93%	West Side Story (1961)	111
+25.	  97%	Roman Holiday (1953)	60
+26.	  99%	Ash Is Purest White (2019)	154
+27.	  96%	Beauty and The Beast (La Belle et la bête) (1946)	67
+28.	  94%	Bringing Up Baby (1938)	51
+29.	  98%	The African Queen (1951)	45
+30.	  98%	The Lost Weekend (1945)	46
+31.	  98%	The Princess Bride (1987)	80
+32.	  96%	Annie Hall (1977)	84
+33.	  98%	In a Lonely Place (1950)	47
+34.	  100%	Only Yesterday (1991)	58
+35.	  98%	Gentlemen Prefer Blondes (1953)	45
+36.	  97%	Sideways (2004)	233
+37.	  98%	Sunrise: A Song of Two Humans (1927)	61
+38.	  96%	Miracle on 34th Street (1947)	48
+39.	  90%	Gone With the Wind (1939)	102
+40.	  100%	Three Colors: Red (Trois couleurs: Rouge) (1994)	54
+41.	  94%	Beauty and the Beast (1991)	118
+42.	  98%	God's Own Country (2017)	130
+43.	  98%	Children of Paradise (Les Enfants du Paradis) (1946)	40
+44.	  99%	Saint Frances (2020)	102
+45.	  96%	Groundhog Day (1993)	85
+46.	  100%	Henry V (1989)	40
+47.	  92%	Cold War (Zimna wojna) (2018)	252
+48.	  93%	You Can't Take It With You (1938)	46
+49.	  100%	Before Sunrise (1995)	46
+50.	  91%	Slumdog Millionaire (2008)	289
+51.	  98%	Your Name. (Kimi No Na Wa.) (2017)	116
+52.	  95%	Enough Said (2013)	191
+53.	  98%	The Young Girls of Rochefort (Les Demoiselles de Rochefort) (1968)	44
+54.	  97%	Bull Durham (1988)	71
+55.	  97%	Crouching Tiger, Hidden Dragon (2001)	159
+56.	  98%	Wings of Desire (1987)	56
+57.	  93%	The Apartment (1960)	72
+58.	  97%	Border (Gräns) (2018)	130
+59.	  95%	Lost In Translation (2003)	232
+60.	  89%	Titanic (1997)	193
+61.	  93%	Elevator to the Gallows (Ascenseur pour l'échafaud) (1958)	58
+62.	  98%	Say Anything... (1989)	47
+63.	  97%	The Lunchbox (2014)	118
+64.	  96%	Masculin Feminin (1966)	45
+65.	  98%	Three Colors: Blue (Trois Couleurs: Bleu) (1993)	46
+66.	  95%	Atlantics (2019)	155
+67.	  96%	A Girl Walks Home Alone at Night (2014)	135
+68.	  97%	Sense and Sensibility (1995)	64
+69.	  95%	Mrs. Miniver (1942)	42
+70.	  97%	The Half of It (2020)	102
+71.	  96%	The Hustler (1961)	47
+72.	  98%	My Beautiful Laundrette (1985)	41
+73.	  96%	Four Weddings and a Funeral (1994)	69
+74.	  94%	To Catch a Thief (1955)	52
+75.	  92%	Shakespeare in Love (1998)	141
+76.	  93%	Midnight in Paris (2011)	224
+77.	  95%	Foreign Correspondent (1940)	42
+78.	  94%	Manhattan (1979)	69
+79.	  90%	Up in the Air (2009)	288
+80.	  94%	Daughters of the Dust (1991)	77
+81.	  93%	Enchanted (2007)	194
+82.	  91%	Gloria Bell (2019)	206
+83.	  95%	Dave (1993)	60
+84.	  90%	Gilda (1946)	70
+85.	  92%	Eternal Sunshine of the Spotless Mind (2004)	250
+86.	  92%	The Town (2010)	235
+87.	  98%	A Summer's Tale (2014)	47
+88.	  94%	Moonstruck (1987)	65
+89.	  94%	Before Sunset (2004)	177
+90.	  94%	Howards End (1992)	67
+91.	  96%	Big Night (1996)	56
+92.	  94%	The Crying Game (1992)	66
+93.	  91%	The Quiet Man (1952)	45
+94.	  93%	The Little Mermaid (1989)	71
+95.	  90%	From Here to Eternity (1953)	62
+96.	  93%	About a Boy (2002)	187
+97.	  95%	Monsoon Wedding (2002)	126
+98.	  96%	To All the Boys I've Loved Before (2018)	70
+99.	  96%	Revanche (2009)	83
+100.	  90%	Million Dollar Baby (2004)	271
