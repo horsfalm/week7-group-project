@@ -139,3 +139,7 @@ footer {
     height: auto;
     float:right;
 }
+
+#map {
+    height: 100px;
+}
