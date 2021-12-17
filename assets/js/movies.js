@@ -1,10 +1,10 @@
 // Source code by Jeffrey Jing
-
-
+//
+//
 // Makes an API call to the online movie database with a given input, captures
 // the returned values from the API request in JSON format, and displays a 
 // poster of the movie based on input.
-
+//
 // The OMDB API only allows us to make queries by title, so my workaround for this
 // is to manually collect 100 movies from each category, for which I pasted the top 100
 // movies of each category from Rotten Tomatos and then wrote a Java TextParser that 
@@ -33,7 +33,8 @@ function getMovies(input) {
         title = action[Math.floor(Math.random(1) * 92)];
     }
 
-    // there are spaces in 
+    // there are spaces in the String values for a lot of movie titles like 'Avengers: Endgame', so to properly
+    // handle this, we need to replace all instances of spaces in the movie title with %20.
     for (var i = 0; i < title.length; i++) {
         if (title.charAt(i) == ' ') {
             url += "%20";
@@ -41,30 +42,18 @@ function getMovies(input) {
             url += title.charAt(i);
         }
     }
-
     fetch(url, {
         "method": "GET",
         "headers": {}
     })
     .then(response => response.json())
     .then(res => {
-        console.log(res);
-        
-        // previous code, will probably delete soon
-        // do stuff with res here. res is a json variable of all the data
-        //for (var i = 0; i < res.Search.length; i++) {
-        //    var inner = '<div>' + res.Search[i].Title + "</div>";
-        //    document.getElementById('films').innerHTML += inner;
-        //}
-
-        // poster[0] = res.Search[0].Poster; // can change search[0] to search[Math.rand(Search.length)] later        
+        console.log(res);       
         var inner = "<div class=\"row\">";
         inner += "\n    <div class=\"column\"> \n       <img src=\"" + res.Search[0].Poster + "\">\n</div>";
         inner += "</div>";
         console.log(inner);
-        //var inner = "<div class=\"row\"> <div class=\"column\"><img src=\"" + poster + "\"> </div>";
         document.getElementById('poster-container').innerHTML = inner; 
-        
     })
     .catch(err => {
         console.error(err);
