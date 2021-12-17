@@ -131,9 +131,11 @@ footer {
 
 #poster-container {
     padding: 10px 5px 5px 0;
+    display: inline;
 }
 
 #poster-container img {
     width: 33.3%;
     height: auto;
+    float:right;
 }
