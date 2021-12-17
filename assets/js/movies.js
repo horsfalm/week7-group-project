@@ -59,16 +59,12 @@ function getMovies(input) {
 
         // poster[0] = res.Search[0].Poster; // can change search[0] to search[Math.rand(Search.length)] later        
         var inner = "<div class=\"row\">";
-<<<<<<< HEAD
 
         let poster = [];
         for (var i = 0; i < 3; i++) {        
                 inner += "\n    <div class=\"column\"> \n       <img src=\"" + res.Search[i].Poster + "\">\n</div>";
         }
 
-=======
-        inner += "\n    <div class=\"column\"> \n       <img src=\"" + res.Search[0].Poster + "\">\n</div>";
->>>>>>> f8ef48539e211badf94305a944ed6204b19bdf1b
         inner += "</div>";
         console.log(inner);
         //var inner = "<div class=\"row\"> <div class=\"column\"><img src=\"" + poster + "\"> </div>";
