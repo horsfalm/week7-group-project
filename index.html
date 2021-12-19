@@ -1,91 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Date Night</title>
-    </head>
-    
-    <body>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Date Night</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  </head>
+  <body>
+    <section class="hero is-primary">
+        <div class="hero-body">
+            <div class="hero-container">
+                <h1 class="title is-1" id="main-title">Date Night</h1>
+                <h2 class="subtitle is-3" id="main-subtitle">"Create Your Local Getaway"</h2>
+                <div class="hero-image-container">
+                    <div class="hero-cta">We have all been locked up too long. It's time to get out into your local community and enjoy a night doing what you love, with someone you care about. Date Night is here to help you plan.</div>
+                </div>
 
-        <header>
-            <h1>Date Night</h1>
-        </header>
-
-        <section class="hero">
-            <div class="hero-cta">
-                <h2>Create a Local Getaway</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos rerum voluptates tempore ipsam eveniet eum consequatur est aut, ducimus itaque mollitia modi quisquam inventore excepturi blanditiis temporibus magnam. Reprehenderit, sapiente?
-                </p>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <section>
-            <div class="options" id="user-input">
-                <div id="preferences"><h2>What Are Your Preferences?</h2></div>
-                    <form id="user-choices">
-                        <div class="form-group">
-                            <textarea id="city" type="text" placeholder="Please enter city"></textarea>
-                            <label for="address"></label>
-                        </div> 
-                        <div class="form-group">
-                            <select name="dining-type" class="select-dropdown">
-                            <option value="" disabled selected>Dining Style</option>
-                            <option value="Italian" class="drop-value">Italian</option>
-                            <option value="Chinese" class="drop-value">Chinese</option>
-                            <option value="Vegan" class="drop-value">Vegan</option>
-                            </select>
+    <section>
+        <div class="box" id="user-input-container">
+            <div id="preferences" class="title is-3"><h2>What Are Your Preferences?</h2></div>
+                <div class="field" id="location-input">
+                    <label class="label"></label>
+                    <div class="control">
+                        <input class="input" type="text" placeholder="Please enter city">
+                    </div>
+                </br>
+                    <div class="field has-addons" id="dining-input">
+                        <label class="label"></label>
+                        <div class="control is-expanded">
+                            <div class="select is-fullwidth">
+                                <select>
+                                    <option value="" disabled selected>Dining Style</option>
+                                    <option>Italian</option>
+                                    <option>Chinese</option>
+                                    <option>Mexican</option>
+                                    <option>BBQ</option>
+                                    <option>Vegan</option>
+                                </select>
+                            </div>
                         </div>
-                        <div class="form-group">
-                            <select name="film-type" class="select-dropdown" onchange="getMovies(this.value)">
-                            <option value="" disabled selected>Film Genre</option>
-                            <option value="Drama" class="drop-value">Drama</option>
-                            <option value="Comedy" class="drop-value">Comedy</option>
-                            <option value="Action" class="drop-value">Action</option>
-                            <option value="Horror" class="drop-value">Horror</option>
-                            <option value="Romance" class="drop-value">Romance</option>
-                            </select>
-                        </div> 
-                    </form>
-                </div>
-        </section>
-        
-        <section id="activities">
-            <div class="options" id="dining">
-                <div>
-                    <h3>Dining Options We Think You Would Like:</h3>
-                </div>
+                    </div>
+                </br>
+                    <div class="field has-addons" id="film-input">
+                        <label class="label"></label>
+                        <div class="control is-expanded">
+                            <div class="select is-fullwidth" onchange="getMovies(this.value)">
+                                <select>
+                                    <option value="" disabled selected>Film Genre</option>
+                                    <option>Drama</option>
+                                    <option>Comedy</option>
+                                    <option>Action</option>
+                                    <option>Horror</option>
+                                    <option>Romance</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </section>
+
+<div class="columns" id="results-container">
+    <div class="column">
+        <div class="card" id="dining-card">
+            <div class="card-content">
+                <h3 class="title is-4">Here's A Dining Option We Think You Would Like:</h2>
             </div>
-
-            <div class="options" id="films">
-                <div>
-                    <h3>Film Options We Think You Would Like:</h3>
-                    <div id="poster-container"></div>
-                </div>
-                <script src="assets/js/movies.js">
-                    
-                </script>
+            <footer class="card-footer" id="activity-results">
+                <div></div>
+            </footer>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card" id="film-card">
+            <div class="card-content">
+                <h3 class="title is-4">Here's A Film We Think You Would Like:</h2>
             </div>
-
-            <div class="options" id="what-is-on">
-                <div><h3>Local Activities We Think You Would Like:</h3></div>
+            <footer class="card-footer" id="film-results">
+                <div></div>
+                <script src="assets/js/movies.js"></script>
+            </footer>
+        </div>
+    </div>
+    <div class="column">
+        <div class="card" id="activities-card">
+            <div class="card-content">
+                <h3 class="title is-4">Here's An Activity We Think You Would Like:</h2>
             </div>
-        </section>
+            <footer class="card-footer" id="activity-results">
+                <div></div>
+            </footer>
+        </div>
+    </div>
 
-        <footer>
-            <h4>Made by Mari, Ashley, Jeff and Mark</h4>
-            <div>
-                <a href="">Read Our Privacy Policy</a><br />
-                &copy; 2021
-            </div>
-        </footer>
+</div>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
-        <script src="./assets/js/script.js"></script>
+<footer class="footer" id="page-footer">
+    <h4>Made by Mari, Ashley, Jeff and Mark</h4>
+    <div>
+        <a href="">Read Our Privacy Policy</a><br />
+        &copy; 2021
+    </div>
+</footer>
 
-    </body>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="./assets/js/script.js"></script>  
 
+</body>
 </html>

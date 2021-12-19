@@ -61,7 +61,7 @@ function getMovies(input) {
         var inner = "<div class=\"row\">";
 
         let poster = [];
-        for (var i = 0; i < 3; i++) {        
+        for (var i = 0; i < 1; i++) {        
                 inner += "\n    <div class=\"column\"> \n       <img src=\"" + res.Search[i].Poster + "\">\n</div>";
         }
 
@@ -69,7 +69,7 @@ function getMovies(input) {
         console.log(inner);
         //var inner = "<div class=\"row\"> <div class=\"column\"><img src=\"" + poster + "\"> </div>";
         //document.getElementById('poster-container').innerHTML = inner;
-        $('#poster-container').append(inner); 
+        $('#film-results').append(inner); 
         
     })
     .catch(err => {
