@@ -27,40 +27,42 @@
                 <div class="field" id="location-input">
                     <label class="label"></label>
                     <div class="control">
-                        <input class="input" type="text" placeholder="Please enter city">
+                        <input class="input" id="city" type="text" placeholder="Please enter city">
                     </div>
+                </div>
                 </br>
-                    <div class="field has-addons" id="dining-input">
-                        <label class="label"></label>
-                        <div class="control is-expanded">
-                            <div class="select is-fullwidth">
-                                <select>
-                                    <option value="" disabled selected>Dining Style</option>
-                                    <option>Italian</option>
-                                    <option>Chinese</option>
-                                    <option>Mexican</option>
-                                    <option>BBQ</option>
-                                    <option>Vegan</option>
-                                </select>
-                            </div>
+                <div class="field has-addons" id="dining-input">
+                    <label class="label"></label>
+                    <div class="control is-expanded">
+                        <div class="select is-fullwidth">
+                            <select>
+                                <option value="" disabled selected>Dining Style</option>
+                                <option>Italian</option>
+                                <option>Chinese</option>
+                                <option>Mexican</option>
+                                <option>BBQ</option>
+                                <option>Vegan</option>
+                            </select>
                         </div>
                     </div>
+                </div>
                 </br>
-                    <div class="field has-addons" id="film-input">
-                        <label class="label"></label>
-                        <div class="control is-expanded">
-                            <div class="select is-fullwidth" onchange="getMovies(this.value)">
-                                <select>
-                                    <option value="" disabled selected>Film Genre</option>
-                                    <option>Drama</option>
-                                    <option>Comedy</option>
-                                    <option>Action</option>
-                                    <option>Horror</option>
-                                    <option>Romance</option>
-                                </select>
-                            </div>
+                <div class="field has-addons" id="film-input">
+                    <label class="label"></label>
+                    <div class="control is-expanded">
+                        <div class="select is-fullwidth" onchange="getMovies(this.value)">
+                            <select>
+                                <option value="" disabled selected>Film Genre</option>
+                                <option>Drama</option>
+                                <option>Comedy</option>
+                                <option>Action</option>
+                                <option>Horror</option>
+                                <option>Romance</option>
+                            </select>
                         </div>
                     </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -70,7 +72,7 @@
             <div class="card-content">
                 <h3 class="title is-4">Here's A Dining Option We Think You Would Like:</h2>
             </div>
-            <footer class="card-footer" id="activity-results">
+            <footer class="card-footer" id="dining-results">
                 <div></div>
             </footer>
         </div>
@@ -93,6 +95,7 @@
             </div>
             <footer class="card-footer" id="activity-results">
                 <div></div>
+                <script src="assets/js/attraction.js"></script>
             </footer>
         </div>
     </div>

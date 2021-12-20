@@ -82,7 +82,7 @@
 }
 
 #dining-results {
-
+    justify-content: center;
 }
 
 #film-results {
@@ -90,7 +90,11 @@
 }
 
 #activity-results {
+    justify-content: center;
+}
 
+#attraction {
+    justify-content: center;
 }
 
 #page-footer {
